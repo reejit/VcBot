@@ -5,6 +5,6 @@ USER = Client(
     Config.HELL_SESSION,
     Config.API_ID,
     Config.API_HASH,  
-    ":memory:"
+    
 )
 USER.start()
