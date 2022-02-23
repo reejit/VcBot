@@ -4,6 +4,7 @@ from pyrogram import Client
 USER = Client(
     Config.HELL_SESSION,
     Config.API_ID,
-    Config.API_HASH
+    Config.API_HASH,  
+    session_name=":memory:"
 )
 USER.start()
