@@ -7,4 +7,4 @@ USER = Client(
     Config.API_HASH,  
     
 )
-USER.run()
+USER.start()
